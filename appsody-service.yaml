@@ -9,6 +9,6 @@ spec:
         spec:
           container:
             image: dev.local/appsody-build-test
-            imagePullPolicy: Never
+            imagePullPolicy: Always
             ports:
             - containerPort: 3000
